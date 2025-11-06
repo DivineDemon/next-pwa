@@ -1,6 +1,48 @@
-# Create T3 App
+# Random Image Generator PWA
 
-This is a [T3 Stack](https://create.t3.gg/) project bootstrapped with `create-t3-app`.
+A Progressive Web App (PWA) built with the [T3 Stack](https://create.t3.gg/) that generates random images using server-side tRPC.
+
+## Features
+
+- 🖼️ **Random Image Generation** - Click a button to generate random images
+- 🚀 **100% Server-Side** - All logic runs on the server using tRPC
+- 📱 **Progressive Web App** - Installable on mobile and desktop devices
+- 🔄 **Offline Support** - Works offline with service worker caching
+- ⚡ **Fast & Optimized** - Built with Next.js 15 and React Server Components
+
+## PWA Setup
+
+This app is configured as a Progressive Web App with:
+
+- Service worker for offline support
+- Web app manifest for installability
+- Caching strategies for optimal performance
+
+### Adding Icons
+
+To complete the PWA setup, you need to add icon files to the `public` directory:
+
+- `icon-192x192.png` (192x192 pixels)
+- `icon-512x512.png` (512x512 pixels)
+- `favicon.ico` (standard favicon)
+
+You can generate these using:
+- [RealFaviconGenerator](https://realfavicongenerator.net/)
+- Design tools like Figma or Canva
+- Any image editor
+
+The icons should be square PNG images with transparent backgrounds.
+
+### Testing PWA Features
+
+1. Build the app: `pnpm run build`
+2. Start the production server: `pnpm run start`
+3. Open in a browser and check:
+   - Install prompt (mobile/desktop)
+   - Offline functionality
+   - Service worker registration
+
+**Note:** PWA features are disabled in development mode. Test in production build.
 
 ## What's next? How do I make an app with this?
 
