@@ -3,10 +3,11 @@
   "short_name": "Image Gen",
   "description": "Generate random images with a single click",
   "start_url": "/",
+  "scope": "/",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#000000",
-  "orientation": "portrait-primary",
+  "orientation": "any",
   "icons": [
     {
       "src": "/icon-192x192.png",
